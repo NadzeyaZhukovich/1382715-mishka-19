@@ -1,0 +1,25 @@
+.search-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.search-list__item {
+  display: flex;
+  justify-content: center;
+
+  padding: 22px 0;
+  border-top: 1px solid $decorate-element-color;
+
+  &:last-child {
+    border-bottom: 1px solid $decorate-element-color;
+  }
+}
+
+.search-list__icon {
+  position: absolute;
+  left: 30px;
+}
